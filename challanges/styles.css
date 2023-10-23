@@ -1,0 +1,107 @@
+body {
+    background-color: #A69D8D;
+}
+
+.container {
+    height: 98vh;
+    width: 99vw;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.title {
+
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+    font-weight: 700;
+    font-size: 25px;
+
+    color: #BF4141;
+}
+
+.content {
+
+    flex-grow: 20;
+    display: flex;
+
+}
+
+.levels {
+
+    width: 33%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    margin: 10px;
+
+    color: #BF4141;
+}
+
+button {
+    width: 80%;
+    height: 10%;
+    margin: 10px;
+
+    border: 0px;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 30px;
+
+    background-color: #A69D8D;
+
+    -webkit-transition: background 0.2s linear;
+    -moz-transition: background 0.2s linear;
+    -ms-transition: background 0.2s linear;
+    -o-transition: background 0.2s linear;
+    transition: background 0.2s linear;
+}
+
+button:hover {
+    background-color: #D9D0BF;
+}
+
+
+.challanges {
+
+    width: 66%;
+
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 10px;
+
+
+    background-image: url(/challanges/images/yande.re\ 28024\ azumanga_daioh\ takino_tomo\ transparent_png\ vector_trace.png);
+    background-size: 45%;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+.newbie {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    line-height: 50px;
+}
+
+a {
+    margin: 10px;
+    background-color: #D9D0BF;
+    width: auto;
+}
+
+img {
+    align-self: baseline;
+}
